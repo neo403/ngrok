@@ -1,8 +1,8 @@
 # install ngrok
 ```sh
-apt update && apt upgrade
-apt install curl
-curl https://github.com/JaeXploit/ngrok/blob/main/ngrok-stable-linux-arm.zip -0 ngrok-stable-linux-arm.zip
+apt update && apt upgrade -y
+apt install wget -y 
+wget https://github.com/JaeXploit/ngrok/blob/main/ngrok-stable-linux-arm.zip -o ngrok-stable-linux-arm.zip
 apt install unzip
 unzip ngrok-stable-linux-arm.zip
 Done ✅
